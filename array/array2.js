@@ -4,6 +4,7 @@
 // for(let i = 0; i < arr.length; i++) {
 //   if(arr[i] >= 0) {
 //     arrayManfiy = false;
+//     break;
 //   }
 // }
 
@@ -19,6 +20,7 @@ let arrayManfiy = true;
 for(let i = 0; i < arr.length; i++) {
   if(arr[i] >= 0) {
     arrayManfiy = false;
+    break;
   }
 }
 
