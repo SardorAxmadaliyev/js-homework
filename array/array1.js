@@ -1,9 +1,15 @@
-let arr = [1, 2, 3];
+// let arr = [1, 2, 3];
 
-for(let i = 0; i < arr.length; i++) {
-  if(arr[i] == "") {
-    console.log("Empty array");
-  }else {
-    console.log("Not empty");
-  }
+// if(arr.length === 0) {
+//   console.log("Empty array");
+// }else {
+//   console.log("Not empty");
+// }
+
+let arr = [];
+
+if(arr.length === 0) {
+  console.log("Empty array");
+}else {
+  console.log("Not empty");
 }
